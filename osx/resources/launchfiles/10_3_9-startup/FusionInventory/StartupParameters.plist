@@ -1,0 +1,12 @@
+{
+  Description     = "Run FusionInventory Mac Agent";
+  Provides        = ("FusionInventory Mac Agent");
+  Requires        = ("Network");
+  OrderPreference = "None";
+  Messages =
+  {
+    start = "Starting the FusionInventory Mac Agent";
+    stop  = "Stopping the FusionInventory Mac Agent";
+  };
+}
+
