@@ -2,3 +2,4 @@ prebuilt
 tmp
 .*\.swp
 agent-lib-bundle
+*~
