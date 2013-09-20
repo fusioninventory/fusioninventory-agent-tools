@@ -27,6 +27,10 @@ if [ -z $TMP ]; then
     echo Please set correct value for TMP
 fi
 
+if [ ! -d $PATCHESDIR ]; then
+    git clone git+ssh://forge.fusioninventory.org/git/fusioninventory/agent-lib-bundle.git
+fi
+
 gitCheckout () {
 	ref=$1
 
